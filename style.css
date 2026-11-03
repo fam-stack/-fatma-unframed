@@ -120,3 +120,71 @@ footer{background:#35342e;color:#f4e6c8;font-family:'Special Elite',monospace;bo
 body.ar .hero h1 em,body.ar h2 i{font-family:Tajawal,sans-serif}
 @media(max-width:800px){header{height:80px}.hero{grid-template-columns:1fr;min-height:auto;padding:55px 4% 95px}.hero h1{font-size:clamp(62px,13vw,105px);margin:65px 0 30px;letter-spacing:-3px}.hero h1 em{letter-spacing:-2px}.hero-text:before{right:2%;top:5%;font-size:13px}.collage{min-height:390px;height:390px;margin:40px auto 0;max-width:500px}.sun{font-size:290px}.cutout{font-size:27px}.sticker{font-size:16px}.work{padding:80px 4%}.projects{grid-template-columns:1fr;gap:45px}.project,.project:nth-child(2n),.project:nth-child(3n){grid-column:auto;padding-top:13px;transform:rotate(-1deg)}.project:nth-child(even){transform:rotate(1.5deg)}.project-visual,.project:nth-child(4n+3) .project-visual{height:310px}.about,.contact{padding:85px 4%}.about p{padding:22px}}
 @media(max-width:420px){.hero h1{font-size:clamp(54px,13vw,75px)}.collage{min-height:320px;height:320px}.sun{font-size:230px}.cutout{font-size:22px}.sticker{font-size:14px;padding:20px 12px}.project-visual,.project:nth-child(4n+3) .project-visual{height:260px}nav{gap:7px}nav a{padding:5px 6px}}
+
+
+/* BRUTALIST EXPERIMENTAL WEB DESIGN V4 */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
+:root{--ink:#080808;--paper:#f0f0e8;--lime:#d7ff22;--coral:#ff5733}
+html{scroll-behavior:smooth}
+body{background:#f0f0e8!important;background-image:none!important;color:#080808!important;font-family:'Space Grotesk',Tajawal,sans-serif}
+.grain{opacity:.055!important}
+header{background:#d7ff22!important;color:#080808!important;border:0!important;border-bottom:5px solid #080808!important;box-shadow:none!important;transform:none!important;height:85px!important;padding:0 3%!important}
+.logo{font-family:'Space Grotesk',Tajawal,sans-serif!important;font-weight:700!important;font-size:26px!important;letter-spacing:-2px!important}
+.logo span{color:#080808!important}.logo small{font-family:'Space Mono',monospace!important;font-size:9px!important}
+nav{font-family:'Space Mono',monospace!important;gap:0!important}
+nav a{background:transparent!important;box-shadow:none!important;border-left:3px solid #080808!important;transform:none!important;padding:16px 19px!important;font-weight:700!important;text-transform:uppercase}
+nav a:hover{background:#080808!important;color:#d7ff22!important}
+#lang{border:3px solid #080808!important;box-shadow:5px 5px #080808!important;border-radius:0!important;background:#fff!important;color:#080808!important;transform:none!important;font:700 12px 'Space Mono',monospace!important}
+.hero{background:#f0f0e8!important;background-image:repeating-linear-gradient(90deg,transparent 0 9.95%,#00000016 10%,transparent 10.05%)!important;border-bottom:6px solid #080808!important;min-height:750px!important;grid-template-columns:60% 40%!important;padding:45px 3% 85px!important;overflow:hidden}
+.hero-text:before{content:'[ 001 — NO RULES ]'!important;position:absolute;right:5%;top:5%;font:700 12px 'Space Mono',monospace!important;color:#080808!important;transform:none!important;z-index:5;background:#d7ff22;padding:9px}
+.eyebrow{font:700 11px 'Space Mono',monospace!important;letter-spacing:0!important;background:#080808!important;color:#d7ff22!important;padding:11px 15px!important;border:0!important;transform:none!important;text-transform:uppercase}
+.hero h1{font-family:'Space Grotesk',Tajawal,sans-serif!important;font-size:clamp(78px,11.8vw,185px)!important;font-weight:700!important;line-height:.78!important;letter-spacing:-11px!important;margin:100px 0 43px!important;text-transform:uppercase!important;transform:none!important;filter:none!important;max-width:1150px}
+.hero h1 em{font-family:'Space Grotesk',Tajawal,sans-serif!important;font-style:normal!important;font-weight:700!important;font-size:1em!important;color:#f0f0e8!important;background:#080808!important;letter-spacing:-10px!important;text-decoration:none!important;transform:skew(-6deg)!important;padding:0 .08em;display:inline-block}
+.hero p{font-family:'Space Grotesk',Tajawal,sans-serif!important;max-width:450px!important;font-size:17px!important;font-weight:600!important;line-height:1.4!important;background:#fff!important;border:4px solid #080808!important;box-shadow:10px 10px #ff5733!important;clip-path:none!important;transform:none!important;padding:22px!important;color:#080808!important}
+.cta{background:#d7ff22!important;color:#080808!important;border:4px solid #080808!important;border-radius:0!important;box-shadow:8px 8px #080808!important;transform:none!important;font:700 13px 'Space Mono',monospace!important;text-transform:uppercase!important;padding:20px 27px!important}
+.cta:hover{background:#ff5733!important;box-shadow:12px 12px #080808!important;transform:translate(-4px,-4px)!important}
+.collage{border:5px solid #080808!important;min-height:540px!important;height:540px!important;background:#ff5733!important;margin:25px 0 0!important;transform:rotate(3deg)!important;filter:none!important;overflow:hidden}
+.collage:before{content:''!important;position:absolute!important;width:160%!important;height:30%!important;left:-30%!important;top:34%!important;background:#080808!important;transform:rotate(-37deg)!important;box-shadow:none!important;clip-path:none!important}
+.collage:after{content:'CTRL + CHAOS'!important;position:absolute!important;bottom:10%!important;right:4%!important;font:700 17px 'Space Mono',monospace!important;background:#d7ff22!important;color:#080808!important;padding:13px!important;transform:rotate(-5deg)!important}
+.paper-one{width:77%!important;height:70%!important;left:10%!important;top:10%!important;background:#d7ff22!important;transform:rotate(-12deg)!important;clip-path:polygon(0 0,100% 0,100% 100%,0 100%)!important;border:5px solid #080808!important;box-shadow:14px 14px #080808!important}
+.paper-two{width:60%!important;height:65%!important;left:25%!important;top:17%!important;background:repeating-linear-gradient(45deg,#080808 0 14px,#fff 14px 27px)!important;transform:rotate(11deg)!important;clip-path:none!important;border:5px solid #080808!important;box-shadow:9px 9px #080808!important}
+.sun{font-family:'Space Grotesk',sans-serif!important;font-size:clamp(230px,28vw,430px)!important;font-weight:700!important;color:#d7ff22!important;text-shadow:12px 12px #080808!important;top:-12%!important;left:-1%!important;transform:rotate(-12deg)!important;opacity:1!important}
+.cutout{font:700 36px/1 'Space Grotesk',sans-serif!important;background:#fff!important;border:5px solid #080808!important;box-shadow:10px 10px #080808!important;clip-path:none!important;transform:rotate(-8deg)!important;top:3%!important;right:0!important}
+.sticker{font:700 17px/1 'Space Mono',monospace!important;background:#d7ff22!important;color:#080808!important;border:5px solid #080808!important;border-radius:0!important;box-shadow:8px 8px #080808!important;transform:rotate(9deg)!important;padding:25px 14px!important;left:0!important;bottom:6%!important}
+.scribble{font:700 160px 'Space Grotesk',sans-serif!important;color:#fff!important;right:0!important;bottom:-8%!important;transform:rotate(25deg)!important}
+.stamp{font:700 12px 'Space Mono',monospace!important;background:#080808!important;color:#d7ff22!important;border:3px solid #d7ff22!important;transform:rotate(-10deg)!important;top:48%!important;left:20%!important}
+.hero-footer{font:700 11px 'Space Mono',monospace!important;color:#080808!important;bottom:20px!important}
+.work{background:#d7ff22!important;background-image:none!important;color:#080808!important;padding:105px 3% 125px!important}
+.work .eyebrow{color:#d7ff22!important}
+.section-head{border-bottom:6px solid #080808!important;padding-bottom:25px!important}
+h2{font-family:'Space Grotesk',Tajawal,sans-serif!important;font-weight:700!important;letter-spacing:-7px!important;text-transform:uppercase!important}
+.work h2 i,.about h2 i,.contact h2 i{font-family:'Space Grotesk',Tajawal,sans-serif!important;font-weight:700!important;font-style:normal!important;letter-spacing:-6px!important;text-decoration:underline!important;text-decoration-thickness:7px!important}
+.work h2 i{color:#ff5733!important}
+.filters button{font:700 12px 'Space Mono',monospace!important;border:3px solid #080808!important;background:transparent!important;box-shadow:none!important;transform:none!important;border-radius:0!important;padding:14px 16px!important;text-transform:uppercase!important}
+.filters button.active,.filters button:hover{background:#080808!important;color:#d7ff22!important}
+.projects{gap:45px 25px!important}
+.project,.project:nth-child(2n),.project:nth-child(3n){background:#f0f0e8!important;border:5px solid #080808!important;box-shadow:12px 12px #080808!important;transform:none!important;padding:12px 12px 20px!important}
+.project:nth-child(2n){background:#ff5733!important}
+.project:nth-child(3n){background:#fff!important}
+.project:before{content:'✳'!important;position:absolute!important;top:-22px!important;left:auto!important;right:16px!important;width:auto!important;height:auto!important;padding:8px 14px!important;background:#080808!important;color:#d7ff22!important;font-size:25px!important;border:0!important;transform:rotate(14deg)!important;box-shadow:none!important}
+.project-visual,.project:nth-child(4n+3) .project-visual{height:390px!important;border:3px solid #080808!important;filter:contrast(1.1)!important}
+.project-visual .placeholder{font-family:'Space Grotesk',sans-serif!important;font-weight:700!important;letter-spacing:-6px!important;transform:rotate(-9deg)!important;text-shadow:6px 6px #080808!important}
+.project-visual:after{background:#d7ff22!important;border:3px solid #080808!important;border-radius:0!important;transform:none!important}
+.project-meta{padding:18px 4px 2px!important;border-bottom:0!important}
+.project-meta h3{font:700 27px 'Space Grotesk',Tajawal,sans-serif!important;letter-spacing:-1px!important;text-transform:uppercase!important}
+.project-meta p,.project-meta span{font:700 11px 'Space Mono',Tajawal,monospace!important}
+.about{background:#ff5733!important;background-image:none!important;color:#080808!important;padding:110px 3%!important}
+.about .eyebrow{color:#d7ff22!important}
+.about h2{transform:none!important;text-shadow:none!important}
+.about h2 i{color:#fff!important}
+.about p{font:700 clamp(25px,3.4vw,50px)/1.18 'Space Grotesk',Tajawal,sans-serif!important;color:#080808!important;background:#f0f0e8!important;border:5px solid #080808!important;box-shadow:14px 14px #080808!important;transform:rotate(-1deg)!important;padding:35px!important}
+.skills{border-top:5px solid #080808!important;font:700 12px 'Space Mono',monospace!important}
+.contact{background:#080808!important;background-image:none!important;color:#f0f0e8!important;padding:110px 3%!important}
+.contact .eyebrow{background:#d7ff22!important;color:#080808!important}
+.contact h2 i{color:#d7ff22!important}
+.contact a{border:4px solid #d7ff22!important;color:#d7ff22!important;font:700 13px 'Space Mono',monospace!important;transform:none!important;border-radius:0!important}
+footer{background:#080808!important;color:#f0f0e8!important;border-top:4px solid #d7ff22!important;font:700 11px 'Space Mono',monospace!important}
+body.ar .hero h1,body.ar h2{letter-spacing:-2px!important}
+body.ar .hero h1 em,body.ar h2 i{font-family:Tajawal,sans-serif!important;letter-spacing:-2px!important}
+@media(max-width:800px){header{height:74px!important;padding:0 3%!important}.hero{grid-template-columns:1fr!important;min-height:auto!important;padding:40px 4% 85px!important}.hero h1{font-size:clamp(66px,13vw,120px)!important;letter-spacing:-5px!important;margin:70px 0 35px!important}.hero h1 em{letter-spacing:-4px!important}.hero-text:before{right:2%!important;top:5%!important}.collage{width:95%!important;min-height:390px!important;height:390px!important;margin:55px auto 0!important}.sun{font-size:300px!important}.work{padding:75px 4%!important}.projects{grid-template-columns:1fr!important;gap:40px!important}.project,.project:nth-child(2n),.project:nth-child(3n){grid-column:auto!important;padding-top:12px!important}.project-visual,.project:nth-child(4n+3) .project-visual{height:330px!important}.about,.contact{padding:80px 4%!important}.about p{padding:22px!important}}
+@media(max-width:420px){.hero h1{font-size:clamp(52px,12.5vw,75px)!important;letter-spacing:-3px!important}.collage{height:310px!important;min-height:310px!important}.sun{font-size:225px!important}.cutout{font-size:22px!important}.sticker{font-size:13px!important;padding:16px 10px!important}.project-visual,.project:nth-child(4n+3) .project-visual{height:260px!important}nav a{padding:6px!important;font-size:10px!important}}
